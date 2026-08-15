@@ -1,0 +1,10 @@
+{
+  "name": "dsh-client-ui-route-badge",
+  "version": "0.1.0",
+  "description": "Shows which backend model actually served each request when using the auto route.",
+  "type": "module",
+  "main": "lib/client.js",
+  "exports": { ".": "./lib/client.js" },
+  "files": ["lib/client.js"],
+  "license": "MIT"
+}
