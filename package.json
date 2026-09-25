@@ -1,6 +1,6 @@
 {
   "name": "dsh-client-ui-route-badge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shows which backend model actually served each request when using the auto route.",
   "type": "module",
   "author": "zhanghao3693",
@@ -31,9 +31,13 @@
   "files": [
     "lib/index.js",
     "lib/client.js",
+    "cordis.patch.yml",
     "README.md"
   ],
   "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "platform": "web",
       "inject": [
